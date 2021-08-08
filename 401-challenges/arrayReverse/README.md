@@ -6,3 +6,6 @@
 
 # Solution 
 ![img](/401-challenges/arrayReverse/array-reverse.jpg)
+
+# Approach & Efficiency
+Logical thinking & solving step by step
