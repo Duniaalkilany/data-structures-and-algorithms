@@ -28,3 +28,11 @@ console.log('Orginal array:',array1);
 console.log('After BinarySearch Function :',BinarySearch(array1, 15));//output 2
 
 module.exports = BinarySearch;
+
+
+
+
+
+
+
+     
