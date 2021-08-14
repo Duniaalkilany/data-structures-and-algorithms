@@ -24,7 +24,11 @@
 ### 7. Can properly return a collection of all the values that exist in the linked list
 
 
-![img](/linked-list/linked-list-5.png)
+
+
+![img](/401-challenges/linked-list/linked-list-5.png)
+
+
 
 
 
