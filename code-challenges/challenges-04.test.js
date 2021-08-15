@@ -14,19 +14,29 @@ HINT: Look at the tests to see how the callback functions are used.
 ------------------------------------------------------------------------------------------------ */
 
 function upper(str) {
-  return str.toUpperCase();
-}
-
-function lower(str) {
-  return str.toLowerCase();
-}
-
-const updateAnimal = (arr, callback) => {
-  // Solution code here...
-  const Array =[];
-  arr.map(string=>Array.push(callback(string)));
-  return Array;
-};
+    return str.toUpperCase();
+  }
+  
+  function lower(str) {
+    return str.toLowerCase();
+  }
+  
+  const updateAnimal = (arr, callback) => {
+    // Solution code here...
+  
+    let newArray = [];
+  
+    arr.forEach(item => {
+  
+      let newItem = callback(item);
+      newArray.push(newItem);
+  
+    });
+  
+    return newArray;
+  
+  };
+  
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -37,10 +47,16 @@ For example: 'Cat' would come before 'apple'
 ------------------------------------------------------------------------------------------------ */
 
 const sortNames = (arr) => {
-  // Solution code here...
-  return arr.sort();
-};
-
+    // Solution code here...
+    return arr.sort((a, b) => {
+      if (a < b) {
+        return -1;}
+      else if (a > b){
+        return 1;}
+      else{
+        return 0 ; }
+    });
+  };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
@@ -50,10 +66,16 @@ HINT: Beware... JS default is "Lexical" ordering.
 ------------------------------------------------------------------------------------------------ */
 
 const sortNumbers = (arr) => {
-  // Solution code here...
-  return arr.sort((num1,num2)=>num1-num2);
-};
-
+    // Solution code here...
+    return arr.sort((a, b) => {
+      if (a < b) {
+        return -1;}
+      else if (a > b){
+        return 1;}
+      else{
+        return 0 ; }
+    });
+  };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
 
@@ -61,11 +83,17 @@ Write a function named sortBackwards that takes in an array of numbers and retur
 
 HINT: Do it with a custom sort callback, not with using `.reverse()`. ;)
 ------------------------------------------------------------------------------------------------ */
-
 const sortBackwards = (arr) => {
-  // Solution code here...
-  return arr.sort((num1,num2) => num2-num1);
-};
+    // Solution code here...
+    return arr.reverse(arr.sort((a, b) => {
+      if (a < b) {
+        return -1;}
+      else if (a > b){
+        return 1;}
+      else{
+        return 0 ; }
+    }));
+  };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
@@ -78,10 +106,16 @@ For example, ['Alphabet', 'Zebra', 'alphabet', 'carrot'] is correctly sorted.
 ------------------------------------------------------------------------------------------------ */
 
 const alphabetize = (arr) => {
-  // Solution code here...
-  return arr.sort();
-};
-
+    // Solution code here...
+    return arr.sort((a, b) => {
+      if (a < b) {
+        return -1;}
+      else if (a > b){
+        return 1;}
+      else{
+        return 0 ; }
+    });
+  };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 
@@ -96,10 +130,16 @@ Here is an example of the input:
 ------------------------------------------------------------------------------------------------ */
 
 const sortByPrice = (arr) => {
-  // Solution code here...
-  return arr.sort((obj1,obj2)=>obj1.price-obj2.price)
- 
-};
+    // Solution code here...
+    return arr.sort((a, b) => {
+      if (a.price < b.price) {
+        return -1;}
+      else if (a.price > b.price ){
+        return 1;}
+      else{
+        return 0 ; }
+    });
+  };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
