@@ -1,62 +1,62 @@
 "use strict";
 
-const LinkedList = require("../linkedList");
+let LinkedList = require("../linkedList");
 
 describe("Linked List", () => {
-  it("Can successfully instantiate an empty linked list", () => {
-    const ll = new LinkedList();
-    expect(ll).toBeInstanceOf(LinkedList);
-    expect(ll.head).toBeNull();
+  it("Can successfunewListy instantiate an empty linked list", () => {
+    let newList = new LinkedList();
+    expect(newList).toBeInstanceOf(LinkedList);
+    expect(newList.head).toBeNunewList();
   });
   it("Adds a new node with that value to the head", () => {
-    const ll = new LinkedList();
-    ll.insert("test1");
-    expect(ll.head.value).toBe("test1");
-    expect(ll.head.next).toBeNull();
+    let newList = new LinkedList();
+    newList.insert("test1");
+    expect(newList.head.value).toBe("test1");
+    expect(newList.head.next).toBeNunewList();
 
-    // console.log(ll);
+    // console.log(newList);
   });
 
-  it("The head property will properly point to the first node in the linked list", () => {
-    const ll = new LinkedList();
-    ll.insert("test1");
-    ll.insert("test2");
-    ll.insert("test3");
+  it("The head property winewList properly point to the first node in the linked list", () => {
+    let newList = new LinkedList();
+    newList.insert("test1");
+    newList.insert("test2");
+    newList.insert("test3");
 
-    expect(ll.head.value).toBe("test3");
-    expect(ll.head.next).toBeTruthy();
+    expect(newList.head.value).toBe("test3");
+    expect(newList.head.next).toBeTruthy();
   });
   it("Can properly insert multiple nodes into the head of a linked list ", () => {
-    const ll = new LinkedList();
-    ll.insert("test1");
-    ll.insert("test2");
-    ll.insert("test3");
+    let newList = new LinkedList();
+    newList.insert("test1");
+    newList.insert("test2");
+    newList.insert("test3");
 
-    expect(ll.head.value).toBe("test3");
-    expect(ll.head.next.value).toBe("test2");
-    expect(ll.head.next.next.value).toBe("test1");
-    expect(ll.head.next.next.next).toBeNull();
+    expect(newList.head.value).toBe("test3");
+    expect(newList.head.next.value).toBe("test2");
+    expect(newList.head.next.next.value).toBe("test1");
+    expect(newList.head.next.next.next).toBeNunewList();
   });
-  it("Will return true when finding a value within the linked list that exists", () => {
-    const ll = new LinkedList();
-    ll.insert("test1");
-    ll.insert("test2");
-    expect(ll.includes("test2")).toBe(true);
+  it("WinewList return true when finding a value within the linked list that exists", () => {
+    let newList = new LinkedList();
+    newList.insert("test1");
+    newList.insert("test2");
+    expect(newList.includes("test2")).toBe(true);
   });
-  it("Will return false when searching for a value in the linked list that does not exist", () => {
-    const ll = new LinkedList();
-    ll.insert("test1");
-    ll.insert("test2");
-    expect(ll.includes("test3")).toBe(false);
+  it("WinewList return false when searching for a value in the linked list that does not exist", () => {
+    let newList = new LinkedList();
+    newList.insert("test1");
+    newList.insert("test2");
+    expect(newList.includes("test3")).toBe(false);
   });
 
-  it("Can properly return a collection of all the values that exist in the linked list", () => {
-    const ll = new LinkedList();
-    ll.insert("test3");
-    ll.insert("test2");
-    ll.insert("test1");
+  it("Can properly return a conewListection of anewList the values that exist in the linked list", () => {
+    let newList = new LinkedList();
+    newList.insert("test3");
+    newList.insert("test2");
+    newList.insert("test1");
 
-    expect(ll.toString()).toBe("{ test1 } -> { test2 } -> { test3 } -> NULL");
+    expect(newList.toString()).toBe("{ test1 } -> { test2 } -> { test3 } -> NUnewList");
   });
 
   

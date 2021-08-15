@@ -6,3 +6,5 @@ Code Challenge : Class02 (Array-Shift)|[click-here](https://github.com/Duniaalki
 Code Challenge : Class03 ( Array-Binary-Search)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/arrayBinarySearch/README.md)
 Code Challenge : Class04 ( Add-Nested-Array)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/nestedArray-04/README.md)
 Code Challenge : Class05 (Liked-List)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/linked-list/README.md)
+Code Challenge : Class06 (linked-list-insertions)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/linked-list-insertions/README.md)
+

@@ -10,7 +10,7 @@ describe("linked-list insertion ", () => {
     expect(newList.head.next).toBeNull();
   });
 
-  it("add multiple nodes to the end of a linked list", () => {
+  it("Can successfully add multiple nodes to the end of a linked list", () => {
     let newList = new LinkedList();
     newList.append("test1");
     newList.append("test2");

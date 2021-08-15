@@ -1,0 +1,17 @@
+{
+  "name": "linked-list-insertions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "linked-list-insertions.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.5"
+  }
+}
