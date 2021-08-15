@@ -63,10 +63,18 @@ HR has asked you to change the data to make it easier to print so that it looks 
 ------------------------------------------------------------------------------------------------ */
 
 
-const updateNumbers = (obj) =>{ Object.entries(obj).map(numbs => numbs.join(': '));
-return obj;
-}
+const updateNumbers = (obj) => {
+  // Solution code here...
 
+  let objKey = Object.keys(obj)
+  let objval = Object.values(obj)
+  let numbers = [];
+  for (let i = 0; i < objKey.length; i++) {
+    numbers.push(`${objKey[i]}: ${objval[i]}`);
+  }
+  return numbers;
+
+};
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
 
