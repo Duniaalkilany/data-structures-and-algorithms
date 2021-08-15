@@ -36,8 +36,6 @@ function upper(str) {
     return newArray;
   
   };
-  
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
@@ -57,6 +55,7 @@ const sortNames = (arr) => {
         return 0 ; }
     });
   };
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
@@ -76,6 +75,7 @@ const sortNumbers = (arr) => {
         return 0 ; }
     });
   };
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
 
@@ -83,6 +83,7 @@ Write a function named sortBackwards that takes in an array of numbers and retur
 
 HINT: Do it with a custom sort callback, not with using `.reverse()`. ;)
 ------------------------------------------------------------------------------------------------ */
+
 const sortBackwards = (arr) => {
     // Solution code here...
     return arr.reverse(arr.sort((a, b) => {
