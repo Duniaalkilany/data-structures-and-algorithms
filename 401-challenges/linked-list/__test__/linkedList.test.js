@@ -14,7 +14,7 @@ describe("Linked List", () => {
     expect(ll.head.value).toBe("test1");
     expect(ll.head.next).toBeNull();
 
-    // console.log(ll);
+   
   });
 
   it("The head property will properly point to the first node in the linked list", () => {
