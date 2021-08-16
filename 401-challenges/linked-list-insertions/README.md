@@ -50,7 +50,7 @@
 * ### insertAfter(): adds a new node with give value after specified value node.
 
 ## The Code :
-### [Code](https://github.com/Duniaalkilany/data-structures-and-algorithms/tree/linked-list/401-challenges/linked-list-insertions)
+### [Code](https://github.com/Duniaalkilany/data-structures-and-algorithms/tree/main/401-challenges/linked-list-insertions)
 
 ## Test
 ### npm run test 
