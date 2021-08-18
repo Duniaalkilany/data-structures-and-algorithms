@@ -18,9 +18,10 @@
 
 
 ## The Code :
-### [Code](https://github.com/Duniaalkilany/data-structures-and-algorithms/tree/main/401-challenges/linked-list-zip)
+### [Code](https://github.com/Duniaalkilany/data-structures-and-algorithms/tree/main/401-challenges/linked-list-reverse)
 
 ## the excle sheet :
 ### [the excle sheet](https://docs.google.com/spreadsheets/d/1xiipOPQKN8uUc8NkfFpGQGJ5TI3-hFuhi70m-yhmai0/edit?usp=sharing)
 
 ## Pull Request :
+### [Pull Request](https://github.com/Duniaalkilany/data-structures-and-algorithms/pull/33)
