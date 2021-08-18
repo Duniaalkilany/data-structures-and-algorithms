@@ -7,5 +7,6 @@ Code Challenge : Class03 ( Array-Binary-Search)|[click-here](https://github.com/
 Code Challenge : Class04 ( Add-Nested-Array)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/nestedArray-04/README.md)
 Code Challenge : Class05 (Liked-List)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/linked-list/README.md)
 Code Challenge : Class06 (linked-list-insertions)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/linked-list-insertions/README.md)
-Code Challenge : Class067(linked-list-kth)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/linked-list-kth/README.md)
-Code Challenge : Class068(linked-list-zip)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/linked-list-zip/README.md)
+Code Challenge : Class07(linked-list-kth)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/linked-list-kth/README.md)
+Code Challenge : Class08(linked-list-zip)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/linked-list-zip/README.md)
+Code Challenge : Class09(linked-list-reverse)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/linked-list-reverse/README.md)
