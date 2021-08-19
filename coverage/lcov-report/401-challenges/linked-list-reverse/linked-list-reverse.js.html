@@ -358,13 +358,13 @@ class LinkedList {
 &nbsp;
 <span class="fstat-no" title="function not covered" >  in</span>cludes(value) {
     let result;
-    let tempNode = <span class="cstat-no" title="statement not covered" >this.head;</span>
-<span class="cstat-no" title="statement not covered" >    while (tempNode.next) {</span>
-<span class="cstat-no" title="statement not covered" >      if (value == tempNode.value) {</span>
+    let currentNode = <span class="cstat-no" title="statement not covered" >this.head;</span>
+<span class="cstat-no" title="statement not covered" >    while (currentNode.next) {</span>
+<span class="cstat-no" title="statement not covered" >      if (value == currentNode.value) {</span>
 <span class="cstat-no" title="statement not covered" >        result = true;</span>
 <span class="cstat-no" title="statement not covered" >        return result;</span>
       } else {
-<span class="cstat-no" title="statement not covered" >        tempNode = tempNode.next;</span>
+<span class="cstat-no" title="statement not covered" >        currentNode = currentNode.next;</span>
       }
     }
 <span class="cstat-no" title="statement not covered" >    result = false;</span>
@@ -373,10 +373,10 @@ class LinkedList {
 &nbsp;
   toString() {
     let string = "";
-    let tempNode = this.head;
-    while (tempNode) {
-      string += `[${tempNode.value}] -&gt; `;
-      tempNode = tempNode.next;
+    let currentNode = this.head;
+    while (currentNode) {
+      string += `[${currentNode.value}] -&gt; `;
+      currentNode = currentNode.next;
     }
     string += `X`;
     return string;
@@ -396,44 +396,44 @@ class LinkedList {
   }
 &nbsp;
 <span class="fstat-no" title="function not covered" >  in</span>sertBefore(value, newValue) {
-    let tempNode = <span class="cstat-no" title="statement not covered" >this.head;</span>
+    let currentNode = <span class="cstat-no" title="statement not covered" >this.head;</span>
     const node = <span class="cstat-no" title="statement not covered" >new Node(newValue);</span>
-<span class="cstat-no" title="statement not covered" >    if (tempNode.value === value) {</span>
+<span class="cstat-no" title="statement not covered" >    if (currentNode.value === value) {</span>
 <span class="cstat-no" title="statement not covered" >      node.next = this.head;</span>
 <span class="cstat-no" title="statement not covered" >      this.head = node;</span>
     } else {
-<span class="cstat-no" title="statement not covered" >      while (tempNode.next) {</span>
-<span class="cstat-no" title="statement not covered" >        if (tempNode.next.value === value) {</span>
-<span class="cstat-no" title="statement not covered" >          node.next = tempNode.next;</span>
-<span class="cstat-no" title="statement not covered" >          tempNode.next = node;</span>
+<span class="cstat-no" title="statement not covered" >      while (currentNode.next) {</span>
+<span class="cstat-no" title="statement not covered" >        if (currentNode.next.value === value) {</span>
+<span class="cstat-no" title="statement not covered" >          node.next = currentNode.next;</span>
+<span class="cstat-no" title="statement not covered" >          currentNode.next = node;</span>
 <span class="cstat-no" title="statement not covered" >          break;</span>
         } else {
-<span class="cstat-no" title="statement not covered" >          tempNode = tempNode.next;</span>
+<span class="cstat-no" title="statement not covered" >          currentNode = currentNode.next;</span>
         }
       }
     }
   }
 &nbsp;
 <span class="fstat-no" title="function not covered" >  in</span>sertAfter(value, newValue) {
-    let tempNode = <span class="cstat-no" title="statement not covered" >this.head;</span>
+    let currentNode = <span class="cstat-no" title="statement not covered" >this.head;</span>
     const node = <span class="cstat-no" title="statement not covered" >new Node(newValue);</span>
-<span class="cstat-no" title="statement not covered" >    while (tempNode) {</span>
-<span class="cstat-no" title="statement not covered" >      if (tempNode.value === value) {</span>
-<span class="cstat-no" title="statement not covered" >        node.next = tempNode.next;</span>
-<span class="cstat-no" title="statement not covered" >        tempNode.next = node;</span>
+<span class="cstat-no" title="statement not covered" >    while (currentNode) {</span>
+<span class="cstat-no" title="statement not covered" >      if (currentNode.value === value) {</span>
+<span class="cstat-no" title="statement not covered" >        node.next = currentNode.next;</span>
+<span class="cstat-no" title="statement not covered" >        currentNode.next = node;</span>
 <span class="cstat-no" title="statement not covered" >        break;</span>
       }
-<span class="cstat-no" title="statement not covered" >      tempNode = tempNode.next;</span>
+<span class="cstat-no" title="statement not covered" >      currentNode = currentNode.next;</span>
     }
   }
 &nbsp;
 <span class="fstat-no" title="function not covered" >  kt</span>hFromEnd(k) {
-    let tempNode = <span class="cstat-no" title="statement not covered" >this.head;</span>
+    let currentNode = <span class="cstat-no" title="statement not covered" >this.head;</span>
     let tempArray = <span class="cstat-no" title="statement not covered" >[];</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    while (tempNode) {</span>
-<span class="cstat-no" title="statement not covered" >      tempArray.push(tempNode.value);</span>
-<span class="cstat-no" title="statement not covered" >      tempNode = tempNode.next;</span>
+<span class="cstat-no" title="statement not covered" >    while (currentNode) {</span>
+<span class="cstat-no" title="statement not covered" >      tempArray.push(currentNode.value);</span>
+<span class="cstat-no" title="statement not covered" >      currentNode = currentNode.next;</span>
     }
 &nbsp;
 <span class="cstat-no" title="statement not covered" >    if (k &lt;= 0) {</span>
@@ -450,17 +450,17 @@ class LinkedList {
 <span class="fstat-no" title="function not covered" >  zi</span>pLists(list1, list2) {
     let result = <span class="cstat-no" title="statement not covered" >new LinkedList();</span>
 &nbsp;
-    let tempNode1 = <span class="cstat-no" title="statement not covered" >list1.head;</span>
-    let tempNode2 = <span class="cstat-no" title="statement not covered" >list2.head;</span>
+    let currentNode1 = <span class="cstat-no" title="statement not covered" >list1.head;</span>
+    let currentNode2 = <span class="cstat-no" title="statement not covered" >list2.head;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >    while (tempNode1 || tempNode2) {</span>
-<span class="cstat-no" title="statement not covered" >      if (tempNode1) {</span>
-<span class="cstat-no" title="statement not covered" >        result.append(tempNode1.value);</span>
-<span class="cstat-no" title="statement not covered" >        tempNode1 = tempNode1.next;</span>
+<span class="cstat-no" title="statement not covered" >    while (currentNode1 || currentNode2) {</span>
+<span class="cstat-no" title="statement not covered" >      if (currentNode1) {</span>
+<span class="cstat-no" title="statement not covered" >        result.append(currentNode1.value);</span>
+<span class="cstat-no" title="statement not covered" >        currentNode1 = currentNode1.next;</span>
       }
-<span class="cstat-no" title="statement not covered" >      if (tempNode2) {</span>
-<span class="cstat-no" title="statement not covered" >        result.append(tempNode2.value);</span>
-<span class="cstat-no" title="statement not covered" >        tempNode2 = tempNode2.next;</span>
+<span class="cstat-no" title="statement not covered" >      if (currentNode2) {</span>
+<span class="cstat-no" title="statement not covered" >        result.append(currentNode2.value);</span>
+<span class="cstat-no" title="statement not covered" >        currentNode2 = currentNode2.next;</span>
       }
     }
 &nbsp;
@@ -469,11 +469,11 @@ class LinkedList {
 &nbsp;
   reverse(list) {
     let result = new LinkedList();
-    let tempNode = list.head;
+    let currentNode = list.head;
 &nbsp;
-    while (tempNode) {
-      result.insert(tempNode.value);
-      tempNode = tempNode.next;
+    while (currentNode) {
+      result.insert(currentNode.value);
+      currentNode = currentNode.next;
     }
 &nbsp;
     return `head -&gt; ${result.toString()}`;
@@ -487,7 +487,7 @@ module.exports = LinkedList;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Thu Aug 19 2021 01:14:21 GMT+0300 (Eastern European Summer Time)
+                at Thu Aug 19 2021 17:21:45 GMT+0300 (Eastern European Summer Time)
             </div>
         </div>
         <script src="../../prettify.js"></script>
