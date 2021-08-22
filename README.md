@@ -11,3 +11,4 @@ Code Challenge : Class07(linked-list-kth)|[click-here](https://github.com/Duniaa
 Code Challenge : Class08(linked-list-zip)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/linked-list-zip/README.md)
 Code Challenge : Class09(linked-list-reverse)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/linked-list-reverse/README.md)
 Code Challenge : Class10(stack-and-queue)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/stack-and-queue/README.md)
+Code Challenge : Class11(stack-queue-pseudo)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/stack-queue-pseudo/README.md)
