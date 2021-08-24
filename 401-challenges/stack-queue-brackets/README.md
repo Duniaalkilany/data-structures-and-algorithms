@@ -35,4 +35,4 @@
 
 ## Solution - Code 
 
-* ### [Code](https://github.com/Duniaalkilany/data-structures-and-algorithms/tree/main/401-challenges/stack-queue-brackets/stack-queue-brackets.js)
+* ### [Code](https://github.com/Duniaalkilany/data-structures-and-algorithms/tree/main/401-challenges/stack-queue-brackets/validateBrackets.js)
