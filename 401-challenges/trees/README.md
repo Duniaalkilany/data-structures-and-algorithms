@@ -1,4 +1,4 @@
-## Code Challenge: Class 11 / Stack Queue Pseudo
+## Code Challenge: Class 15 / Trees : Binary Tree & Binary Search Tree :
 
 # Challenge Summary
 
