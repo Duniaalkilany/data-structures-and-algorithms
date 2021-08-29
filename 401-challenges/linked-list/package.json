@@ -4,7 +4,9 @@
   "description": "",
   "main": "linkedList.js",
   "scripts": {
-    "test": "jest --verbose --coverage"
+    "test": "jest --verbose --coverage",
+    "start": "node linkedList.js",
+    "dev": "nodemon linkedList.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +15,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12"
   }
 }
