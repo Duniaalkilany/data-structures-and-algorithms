@@ -15,6 +15,7 @@ class LinkedList {
     this.head = node;
   }
 
+  
   includes(value) {
     let result = false;
     let tempNode = this.head;

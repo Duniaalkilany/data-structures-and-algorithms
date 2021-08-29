@@ -5,6 +5,7 @@ const Node = require("./node");
 class LinkedList {
   constructor() {
     this.head = null;
+    this.size = 0
   }
 
   insert(value) {
@@ -42,20 +43,29 @@ class LinkedList {
   }
 
   append(value) {
+     // creates a new node
     const node = new Node(value);
+    //(!this.head===> this.head ==null ====> list is empty)
+    //if list is Empty add the element(new node that i created) and make it head
     if (!this.head) {
       this.head = node;
     } else {
+      //else if the list is not empty  iterate to the end of the list
       let currentNode = this.head;
       while (currentNode.next) {
         currentNode = currentNode.next;
       }
+      //add node 
       currentNode.next = node;
-    }
+    }  
+    this.size++;             
   }
-
+  //use insert before and insert after to insert element at the position index of the list
+  //insert newvalue before this value , 
   insertBefore(value, newValue) {
+    // put head value in the newNode
     let newNode = this.head;
+    //create node for the new value which i want to add 
     const node = new Node(newValue);
     if (newNode.value === value) {
       node.next = this.head;

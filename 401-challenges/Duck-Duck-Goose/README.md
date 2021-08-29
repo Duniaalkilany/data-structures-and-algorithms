@@ -1,4 +1,4 @@
-# Code Challenge: Class 14 / stack-queue-brackets
+# Code Challenge: Class 14 
 
 
 # Challenge Description
