@@ -21,9 +21,8 @@ Code Challenge : Class17(tree-breadth-first)|[click-here](https://github.com/Dun
 Code Challenge : Class18(FizzBuzzTree)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/fizzBuzzTree/README.md)
 Code Challenge : Class19(sumOddNumbers)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/sumOddNumbers/README.md)
 Code Challenge : Class26(Insertion Sort)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/insertion-sort/BLOG.md)
+Code Challenge : Class27(Merge Sort)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/merge-sort/BLOG.md)
 Code Challenge : Class28(Quick Sort)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/quick-sort/BLOG.md)
-
-
 
 
 
