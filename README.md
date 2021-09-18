@@ -23,6 +23,7 @@ Code Challenge : Class19(sumOddNumbers)|[click-here](https://github.com/Duniaalk
 Code Challenge : Class26(Insertion Sort)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/insertion-sort/BLOG.md)
 Code Challenge : Class27(Merge Sort)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/merge-sort/BLOG.md)
 Code Challenge : Class28(Quick Sort)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/quick-sort/BLOG.md)
+Code Challenge : Class30(Hashtables)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/hashtable/README.md)
 
 
 

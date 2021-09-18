@@ -19,6 +19,7 @@
     "init": "^0.1.2",
     "jest": "^26.0.1",
     "mustache": "^4.0.1",
+    "node": "^16.9.1",
     "supertest": "^4.0.2"
   },
   "devDependencies": {},
