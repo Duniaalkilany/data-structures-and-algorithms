@@ -24,6 +24,6 @@ Code Challenge : Class26(Insertion Sort)|[click-here](https://github.com/Duniaal
 Code Challenge : Class27(Merge Sort)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/merge-sort/BLOG.md)
 Code Challenge : Class28(Quick Sort)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/quick-sort/BLOG.md)
 Code Challenge : Class30(Hashtables)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/hashtable/README.md)
-
+Code Challenge : Class31(repeated-word)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/repeated-word/README.md)
 
 
