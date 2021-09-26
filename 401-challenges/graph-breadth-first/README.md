@@ -50,13 +50,13 @@
 
   * #### Return: A collection of nodes in the order they were visited,
 
- * #### Display the collection
+  * #### Display the collection
 
 
 
 ## Testing
 
-### [Tests](https://github.com/Duniaalkilany/data-structures-and-algorithms/tree/main/401-challenges/graph-breadth-first.js/graph-breadth-first.test.js)
+### [Tests](https://github.com/Duniaalkilany/data-structures-and-algorithms/tree/main/401-challenges/graph-breadth-first/graph-breadth-first.test.js)
 
 ![img](/401-challenges/graph-breadth-first/challenge36-test.png)
 
