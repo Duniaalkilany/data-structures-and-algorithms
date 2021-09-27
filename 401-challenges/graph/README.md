@@ -53,7 +53,7 @@
 
 ## Testing
 
-### [Tests](https://github.com/Duniaalkilany/data-structures-and-algorithms/tree/main/401-challenges/graph.test.js)
+### [Tests](https://github.com/Duniaalkilany/data-structures-and-algorithms/tree/main/401-challenges/graph/graph.test.js)
 
 ![img](/401-challenges/graph/challenge35-test.png)
 
