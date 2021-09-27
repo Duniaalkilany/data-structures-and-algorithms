@@ -30,6 +30,8 @@ Code Challenge : Class33(hashmap-left-join)|[click-here](https://github.com/Duni
 Code Challenge : Class34(Unique characters)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/unique-characters/README.md)
 Code Challenge : Class35(Graphs)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/Graphs/README.md)
 Code Challenge : Class36(Graph-breadth-first)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/graph-breadth-first/README.md)
+Code Challenge : Class37(graph-business-trip)|[click-here](https://github.com/Duniaalkilany/data-structures-and-algorithms/blob/main/401-challenges/graph-business-trip/README.md)
+
 
 
 
