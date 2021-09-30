@@ -36,7 +36,7 @@
 
 ## Testing
 
-### [Tests](https://github.com/Duniaalkilany/data-structures-and-algorithms/tree/main/401-challenges/graph-depth-firstgraph-depth-first.test.js)
+### [Tests](https://github.com/Duniaalkilany/data-structures-and-algorithms/tree/main/401-challenges/graph-depth-first/graph-depth-first.test.js)
 
 ![img](/401-challenges/graph-depth-first/challenge38-test.png)
 
